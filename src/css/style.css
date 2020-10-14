@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container_form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-livraria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #000;
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+}
+
+
+.class-inp-form {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.class-lab-form {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.class-sel-form {
+    padding: 5px;
+}
+
+
+.class-button-form {
+    margin-top: 20px;
+    background: #09B4DF;
+    color: #fff;
+    width: 12vw;
+    border: 0;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 23px;
+    border-radius: 6px;
+}
+
+.class-h1-title {
+    text-align: center;
+}
+
+.result-display {
+    width: 500px;
+    height: 400px;
+    display: block;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 50px;
+    border: 1px solid #000;
+    display: none;
+    margin-top: -235px;
+
+}
+
+.p-result-display {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px 0;
+}

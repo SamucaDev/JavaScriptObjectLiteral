@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Checkpoint 2 - Livraria</title>
+</head>
+
+<body>
+
+    <div id="container_form">
+        <form id="form-livraria" action="#" method="POST">
+            <h1 class="class-h1-title">Checkpoint - 2</h1>
+
+            <label class="class-lab-form" for="name_book">Nome do livro:</label>
+            <input required class="class-inp-form" type="text" id="name_book">
+
+            <label class="class-lab-form" for="price_book">Preço:</label>
+            <input required class="class-inp-form" type="text" id="price_book">
+
+            <label required class="class-lab-form" for="discount-book">Selecione o desconto</label>
+            <select class="class-sel-form" name="discount-book" id="discount-book">
+                <option value="0">Nenhum</option>
+                <option value="1">Cliente A</option>
+                <option value="2">Cliente B</option>
+                <option value="3">Cliente C</option>
+            </select>
+
+            <input type="submit" value="Efetuar Pagamento" class="class-button-form">
+        </form>
+
+
+    </div>
+    <div class="result-display">
+        <h1 class="class-h1-title">Exibição dos dados no browser</h1>
+
+        <p id="name_exibicao" class="p-result-display"> </p>
+        <p id="price_exibicao" class="p-result-display"> </p>
+        <p id="discount_exibicao" class="p-result-display"> </p>
+        <p id="total_exibicao" class="p-result-display"> </p>
+    </div>
+</body>
+
+<script type="text/javascript" src="./src/js/formLivraria.js"></script>
+
+
+</html>
